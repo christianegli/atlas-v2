@@ -19,7 +19,7 @@ import path from "path";
 import { getAllEpisodes, getPinnedContexts } from "./memory.js";
 
 const OLLAMA_BASE_URL = process.env.OLLAMA_BASE_URL ?? "http://localhost:11434";
-const OLLAMA_MODEL = process.env.OLLAMA_MODEL ?? "gemma3:2b";
+const OLLAMA_MODEL = process.env.OLLAMA_MODEL ?? "qwen3:8b";
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 

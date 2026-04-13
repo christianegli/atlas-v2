@@ -20,7 +20,7 @@
  *   ANTHROPIC_API_KEY   — required when not using proxy
  *   MODEL_ID            — model to use (default: claude-sonnet-4-6)
  *   OLLAMA_BASE_URL     — Ollama base URL (default: http://localhost:11434)
- *   OLLAMA_MODEL        — model for subconscious tasks (default: gemma3:2b)
+ *   OLLAMA_MODEL        — model for subconscious tasks (default: qwen3:8b)
  *   OLLAMA_EMBED_MODEL  — embedding model (default: nomic-embed-text)
  */
 

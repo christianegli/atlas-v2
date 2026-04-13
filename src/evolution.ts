@@ -19,7 +19,7 @@ import { getRollingAverage, type DailyMetrics } from "./metrics.js";
 const execAsync = promisify(exec);
 
 const OLLAMA_BASE_URL = process.env.OLLAMA_BASE_URL ?? "http://localhost:11434";
-const OLLAMA_MODEL = process.env.OLLAMA_MODEL ?? "gemma3:2b";
+const OLLAMA_MODEL = process.env.OLLAMA_MODEL ?? "qwen3:8b";
 
 export interface Mutation {
   type: "targeted" | "speculative" | "meta-evolution";
