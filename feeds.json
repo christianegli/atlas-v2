@@ -1,0 +1,5 @@
+{
+  "feeds": [],
+  "fetchIntervalMinutes": 120,
+  "note": "Add RSS/Atom feeds here. Atlas will suggest additions based on your active projects during onboarding."
+}
