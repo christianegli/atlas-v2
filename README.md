@@ -54,7 +54,7 @@ These files are git-tracked. The evolution engine commits changes to them automa
 ### Prerequisites
 
 - Node.js 20+
-- [Ollama](https://ollama.ai) with `qwen3:8b` and `nomic-embed-text` models
+- [Ollama](https://ollama.ai) with `qwen3.5:9b` and `nomic-embed-text` models
 - A Telegram bot token ([create one via @BotFather](https://t.me/BotFather))
 - Anthropic API key (or a local OpenAI-compatible proxy)
 
@@ -83,7 +83,7 @@ TELEGRAM_CHAT_ID=...   # Your personal chat ID
 ### Pull Ollama models
 
 ```bash
-ollama pull qwen3:8b
+ollama pull qwen3.5:9b
 ollama pull nomic-embed-text
 ```
 
